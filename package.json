@@ -1,0 +1,19 @@
+{
+  "name": "georgebrowncollege-ielts",
+  "version": "1.0.0",
+  "description": "Playground for testing out React features",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoomzooom6/georgebrowncollege-ielts.git"
+  },
+  "author": "Tony Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoomzooom6/georgebrowncollege-ielts/issues"
+  },
+  "homepage": "https://github.com/zoomzooom6/georgebrowncollege-ielts#readme"
+}
