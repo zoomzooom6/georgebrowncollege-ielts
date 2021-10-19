@@ -1,19 +1,18 @@
+import React from 'react';
 import './App.css';
+
+import Home from '../src/components/Home';
+import About from '../src/components/AboutUs';
+import Nav from "../src/components/Nav";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Welcome to the George Brown College IELTS Test Centre React Sandbox</p>
-        <a
-          className="App-link"
-          href="https://www.georgebrown.ca/ielts"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Find our current website here
-        </a>
-      </header>
+    <div>
+      <Nav></Nav>
+      <main>
+        <Home></Home>
+        <About></About>
+      </main>
     </div>
   );
 }
