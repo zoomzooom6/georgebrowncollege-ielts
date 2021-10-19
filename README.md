@@ -8,4 +8,4 @@ Building a React-based website utilizing various features as a learning sandbox 
 Designed by Tony Huang.
 
 ## Deployment
-Website hosted by Heroku <a href='' target='_blank'>here</a>.
+Website hosted by Heroku <a href='https://georgebrowncollege-ielts.herokuapp.com/' target='_blank'>here</a>.

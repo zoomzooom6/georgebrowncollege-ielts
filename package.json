@@ -2,9 +2,13 @@
   "name": "georgebrowncollege-ielts",
   "version": "1.0.0",
   "description": "Playground for testing out React features",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/server.js",
+    "build": "cd client && npm run build",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/zoomzooom6/georgebrowncollege-ielts/issues"
   },
-  "homepage": "https://github.com/zoomzooom6/georgebrowncollege-ielts#readme"
+  "homepage": "https://github.com/zoomzooom6/georgebrowncollege-ielts#readme",
+  "dependencies": {
+    "concurrently": "^6.3.0"
+  }
 }
